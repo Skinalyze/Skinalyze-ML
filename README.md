@@ -11,10 +11,8 @@
 ![TensorFlow Badge](https://img.shields.io/badge/TensorFlow-2.16.1-FF6F00?logo=tensorflow)
 ![Keras Badge](https://img.shields.io/badge/Keras-3.1.1-D00000?logo=keras)
 
-
-
 # `SKINALYZE: Personalized skin care recommendations`
----
+![Fading Line](https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif)
 
 > Team: `C241-PS385`
 > 
@@ -51,3 +49,4 @@
 > `Stefanus Bernard Melkisedek`
 > `Debby Trinita`
 > `Mhd. Reza Kurniawan Lubis`
+![Gradient Line](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
