@@ -13,10 +13,12 @@
 
 # `SKINALYZE: Personalized skin care recommendations`
 ![Fading Line](https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif)
+![Banner_Skinalyze](./src/assets/image/banner_readme.png)
 
 > Team: `C241-PS385`
 > 
 > Project for: `Capstone Project Bangkit Academy 2024 H1`  
+
 
 ## Objective
 
