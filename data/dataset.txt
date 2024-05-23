@@ -4,13 +4,14 @@ The dataset is in the form of a Google Drive folder.
 
 The folder contains the following directories:
 - skinProblem
-    - valid
-    - test
-    - train
-    - Skin-Problem-MultiLabel.v1i.multiclass.zip
+    - wrinkles
+    - darkspots
+    - blackheads
+    - acne
+    - skin_problem_dataset.zip
 - skinCareProducts
     -products.csv
 
-The skinProblem directory contains images of skin problems such as acne, eczema, psoriasis, etc. 
+The skinProblem directory contains images of skin problems such as wrinkles, darkspots, blackheads, etc. 
 
 The skinCareProducts directory contains csv file of skin care products such as face wash, moisturizer, sunscreen, etc.
