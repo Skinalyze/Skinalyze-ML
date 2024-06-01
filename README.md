@@ -40,7 +40,108 @@
 
 ## Modelling results
 
-`SHORT SUMMARY AND LINK TO REPORT`
+The results of the model training and evaluation are organized in the `results` directory. Here's a brief description of what each subdirectory contains:
+
+- `model_summary`: Contains a text file (`model_summary.txt`) with the summary of the trained model.
+- `model_architecture`: Contains an image file (`model.png`) that visualizes the architecture of the trained model.
+- `training_logs`: Contains a CSV file (`training_log.csv`) with the logs of the model training process.
+- `evaluation_results`: Contains a CSV file (`evaluation_results.csv`) with the results of the model evaluation.
+- `confusion_matrix`: Contains an image file (`confusion_matrix.png`) that visualizes the confusion matrix of the model predictions.
+- `training_validation_plots`: Contains two image files (`train_val_accuracy.png` and `train_val_loss.png`) that plot the training and validation accuracy and loss, respectively, over each epoch.
+
+1. Model Summary
+The `model_summary.txt` file contains a summary of the trained model, including the layers, parameters, and output shape. Below is the content of the `model_summary.txt` file:
+
+    ```plaintext
+    Model: "model"
+    _________________________________________________________________
+    Layer (type)                Output Shape              Param #   
+    =================================================================
+    input_1 (InputLayer)        [(None, 224, 224, 3)]     0         
+                                                                    
+    conv2d (Conv2D)             (None, 222, 222, 16)      448       
+                                                                    
+    max_pooling2d (MaxPooling2  (None, 111, 111, 16)      0         
+    D)                                                              
+                                                                    
+    conv2d_1 (Conv2D)           (None, 109, 109, 32)      4640      
+                                                                    
+    max_pooling2d_1 (MaxPoolin  (None, 54, 54, 32)        0         
+    g2D)                                                            
+                                                                    
+    conv2d_2 (Conv2D)           (None, 52, 52, 64)        18496     
+                                                                    
+    max_pooling2d_2 (MaxPoolin  (None, 26, 26, 64)        0         
+    g2D)                                                            
+                                                                    
+    flatten (Flatten)           (None, 43264)             0         
+                                                                    
+    dense (Dense)               (None, 512)               22151680  
+                                                                    
+    dropout (Dropout)           (None, 512)               0         
+                                                                    
+    dense_1 (Dense)             (None, 128)               65664     
+                                                                    
+    dense_2 (Dense)             (None, 64)                8256      
+                                                                    
+    dense_3 (Dense)             (None, 5)                 325       
+                                                                    
+    =================================================================
+    Total params: 22249509 (84.88 MB)
+    Trainable params: 22249509 (84.88 MB)
+    Non-trainable params: 0 (0.00 Byte)
+    _________________________________________________________________
+    ```
+
+2. Model Architecture
+The `model.png` file visualizes the architecture of the trained model. It shows the layers and connections between them, providing a clear overview of the model's structure. Below is the image of the model architecture:
+
+    <br><br>
+    ![Model Architecture](./results/model_architecture/model.png)
+    <br><br>
+
+3. Training Logs
+THe `training_log.csv` file contains the logs of the model training process, including the training and validation loss and accuracy for each epoch. Below is a sample of the training logs:
+
+    ```plaintext
+    epoch,accuracy,loss,val_accuracy,val_loss
+    0,0.3529999852180481,1.3982481956481934,0.4390000104904175,1.2333430051803589
+    1,0.42500001192092896,1.24297297000885,0.4334999918937683,1.1779710054397583
+    2,0.44200000166893005,1.1989573240280151,0.5230000019073486,1.058279275894165
+    3,0.47450000047683716,1.1513628959655762,0.512499988079071,1.0816335678100586
+    4,0.4894999861717224,1.1482555866241455,0.5220000147819519,1.1089433431625366
+    5,0.5005000233650208,1.1328016519546509,0.47699999809265137,1.1915416717529297
+    6,0.5264999866485596,1.073413372039795,0.5640000104904175,1.028179407119751
+    7,0.5410000085830688,1.0344130992889404,0.5830000042915344,0.9520224928855896
+    8,0.5740000009536743,0.994756281375885,0.5109999775886536,1.1308021545410156
+    9,0.6050000190734863,0.9518226981163025,0.6205000281333923,0.8958635926246643
+    10,0.5799999833106995,0.9876976609230042,0.5270000100135803,1.1309165954589844
+    ```
+
+4. Evaluation Results
+The `evaluation_results.csv` file contains the results of the model evaluation from the validation dataset, including the accuracy and loss. Below is the result of the evaluation results:
+
+    ```plaintext
+    Loss,Accuracy
+    0.4638826251029968,0.8379999995231628
+    ```
+
+5. Confusion Matrix
+The `confusion_matrix.png` file visualizes the confusion matrix of the model predictions. It shows the true positive, true negative, false positive, and false negative values for each class, providing insights into the model's performance. Below is the image of the confusion matrix:
+
+    ![Confusion Matrix](./results/confusion_matrix/confusion_matrix.png)
+
+6. Training and Validation Plots
+The `training_validation_accuracy.png` and `training_validation_loss.png` files plot the training and validation accuracy and loss, respectively, over each epoch. These plots provide a visual representation of the model's performance during training. Below are the images of the training and validation plots:
+
+    <br><br>
+    ![Training and Validation Accuracy](./results/training_validation_plots/training_validation_accuracy.png)
+    <br><br>
+
+    <br><br>
+    ![Training and Validation Loss](./results/training_validation_plots/training_validation_loss.png)
+    <br><br>
+
 
 ## Model Documentation
 
