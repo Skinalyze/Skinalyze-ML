@@ -1,0 +1,11 @@
+Since GitHub is generally designed to handle source code,
+it is not the best place to store large files.
+
+We recommend using the Google Drive Link to download the Keras model
+and the TFLite model.
+
+The Keras model and the TFLite model can be downloaded from the following links:
+
+- [Keras Model](https://drive.google.com/file/d/1-hZSuFW4gXo3pQ0PmVA95fSAbhKxVsEs/view?usp=drive_link)
+
+- [TFLite Model](https://drive.google.com/file/d/15PuGhYWdiNbUBW9tzJ-KD1srP7Dh_z_3/view?usp=drive_link)
