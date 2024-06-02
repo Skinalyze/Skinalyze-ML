@@ -36,6 +36,7 @@
 
 ## Directory in this repository
 
+```plaintext
 |-- data
     |-- dataset.txt
 |-- model
@@ -65,6 +66,7 @@
             |-- tensorflow_logo.png
 |-- .gitignore
 |-- README.md
+```
 
 `SHORT SUMMARY AND LINK TO REPORT`
 
