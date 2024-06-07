@@ -37,38 +37,37 @@
 ## Directory in this repository
 
 ```plaintext
-|-- data
-    |-- dataset.txt
-|-- model
-    |-- model.txt
-|-- notebooks
-    |-- skin_problem_classification_training_v1.ipynb
-    |-- skin_problem_classification_training_v2.ipynb
-    |-- skin_problem_classifier.ipynb
-|-- results
-    |-- confusion_matrix
-        |-- confusion_matrix.png
-    |-- evaluation_results
-        |-- evaluation_results.csv
-    |-- model_architecture
-        |-- model.png
-    |-- model_summary
-        |-- model_summary.txt
-    |-- training_logs
-        |-- training_log.csv
-    |-- training_validation_plots
-        |-- training_validation_accuracy.png
-        |-- training_validation_loss.png
-|-- src
-    |-- assets
-        |-- image
-            |-- banner_readme.png
-            |-- tensorflow_logo.png
-|-- .gitignore
-|-- README.md
+.Skinalyze-ML/
+├── README.md
+├── data
+│   └── dataset.txt
+├── model
+│   └── model.txt
+├── notebooks
+│   ├── skin_problem_classifier.ipynb
+│   └── training
+│       ├── skin_problem_classification_training_v1.ipynb
+│       └── skin_problem_classification_training_v2.ipynb
+├── results
+│   ├── confusion_matrix
+│   │   └── confusion_matrix.png
+│   ├── evaluation_results
+│   │   └── evaluation_results.csv
+│   ├── model_architecture
+│   │   └── model.png
+│   ├── model_summary
+│   │   └── model_summary.txt
+│   ├── training_logs
+│   │   └── training_log.csv
+│   └── training_validation_plots
+│       ├── training_validation_accuracy.png
+│       └── training_validation_loss.png
+└── src
+    └── assets
+        └── image
+            ├── banner_readme.png
+            └── tensorflow_logo.png
 ```
-
-`SHORT SUMMARY AND LINK TO REPORT`
 
 ## Modelling results
 
