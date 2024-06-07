@@ -590,16 +590,14 @@ This documentation provides a comprehensive guide on how to use the TensorFlow L
 
 Thank you team Mobile Dev for your hard work in integrating the model into the Android app!
 
-
-
 ```py
 print("\033[92mEnd of report")
 ```
 
 <span style="color: green; font-weight: bold">End of report</span>
 
+![Gradient Line](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
 
->![Gradient Line](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
 > Copyright by `Team C241-PS385`
 > 
 > Main developer:
@@ -607,8 +605,9 @@ print("\033[92mEnd of report")
 > `Stefanus Bernard Melkisedek`
 > `Debby Trinita`
 > `Mhd. Reza Kurniawan Lubis`
-> ![Gradient Line](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
 
-<center>
+ ![Gradient Line](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
+
+<p align="center">
     <img src="./src/assets/gif/thankyou.gif" alt="Thank You">
-</center>
+</p>
