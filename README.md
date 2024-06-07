@@ -595,8 +595,8 @@ print("\033[92mEnd of report")
 
 <span style="color: green; font-weight: bold">End of report</span>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="500">
 
+>![Gradient Line](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
 > Copyright by `Team C241-PS385`
 > 
 > Main developer:
@@ -604,4 +604,8 @@ print("\033[92mEnd of report")
 > `Stefanus Bernard Melkisedek`
 > `Debby Trinita`
 > `Mhd. Reza Kurniawan Lubis`
-![Gradient Line](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
+> ![Gradient Line](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
+
+<center>
+    <img src="./src/assets/gif/thankyou.gif" alt="Thank You">
+</center>
