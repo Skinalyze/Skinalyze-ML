@@ -37,38 +37,40 @@
 ## Directory in this repository
 
 ```plaintext
-|-- data
-    |-- dataset.txt
-|-- model
-    |-- model.txt
-|-- notebooks
-    |-- skin_problem_classification_training_v1.ipynb
-    |-- skin_problem_classification_training_v2.ipynb
-    |-- skin_problem_classifier.ipynb
-|-- results
-    |-- confusion_matrix
-        |-- confusion_matrix.png
-    |-- evaluation_results
-        |-- evaluation_results.csv
-    |-- model_architecture
-        |-- model.png
-    |-- model_summary
-        |-- model_summary.txt
-    |-- training_logs
-        |-- training_log.csv
-    |-- training_validation_plots
-        |-- training_validation_accuracy.png
-        |-- training_validation_loss.png
-|-- src
-    |-- assets
-        |-- image
-            |-- banner_readme.png
-            |-- tensorflow_logo.png
-|-- .gitignore
-|-- README.md
+.Skinalyze-ML/
+├── README.md
+├── data
+│   └── dataset.txt
+├── model
+│   └── model.txt
+├── notebooks
+│   ├── skin_problem_classifier.ipynb
+│   └── training
+│       ├── skin_problem_classification_training_v1.ipynb
+│       └── skin_problem_classification_training_v2.ipynb
+├── results
+│   ├── confusion_matrix
+│   │   └── confusion_matrix.png
+│   ├── evaluation_results
+│   │   └── evaluation_results.csv
+│   ├── model_architecture
+│   │   └── model.png
+│   ├── model_summary
+│   │   └── model_summary.txt
+│   ├── training_logs
+│   │   └── training_log.csv
+│   └── training_validation_plots
+│       ├── training_validation_accuracy.png
+│       └── training_validation_loss.png
+└── src
+    └── assets
+        ├── gif
+        │   ├── great_work.gif
+        │   └── thankyou.gif
+        └── image
+            ├── banner_readme.png
+            └── tensorflow_logo.png
 ```
-
-`SHORT SUMMARY AND LINK TO REPORT`
 
 ## Modelling results
 
@@ -596,8 +598,8 @@ print("\033[92mEnd of report")
 
 <span style="color: green; font-weight: bold">End of report</span>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="500">
 
+>![Gradient Line](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
 > Copyright by `Team C241-PS385`
 > 
 > Main developer:
@@ -605,4 +607,8 @@ print("\033[92mEnd of report")
 > `Stefanus Bernard Melkisedek`
 > `Debby Trinita`
 > `Mhd. Reza Kurniawan Lubis`
-![Gradient Line](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
+> ![Gradient Line](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
+
+<center>
+    <img src="./src/assets/gif/thankyou.gif" alt="Thank You">
+</center>
