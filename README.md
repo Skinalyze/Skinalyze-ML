@@ -64,6 +64,9 @@
 │       └── training_validation_loss.png
 └── src
     └── assets
+        ├── gif
+        │   ├── great_work.gif
+        │   └── thankyou.gif
         └── image
             ├── banner_readme.png
             └── tensorflow_logo.png
