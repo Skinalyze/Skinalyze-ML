@@ -135,7 +135,7 @@ The `model.png` file visualizes the architecture of the trained model. It shows 
     <br><br>
 
 3. Training Logs
-THe `training_log.csv` file contains the logs of the model training process, including the training and validation loss and accuracy for each epoch. Below is a sample of the training logs:
+The `training_log.csv` file contains the logs of the model training process, including the training and validation loss and accuracy for each epoch. Below is a sample of the training logs:
 
     ```plaintext
     epoch,accuracy,loss,val_accuracy,val_loss

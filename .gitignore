@@ -29,3 +29,4 @@ ipython_config.py
 *.pkl
 *.joblib
 *.keras
+*.tflite
