@@ -8,6 +8,7 @@ tensorflow = "==2.4.0"
 tflite-support = "*"
 
 [dev-packages]
+ipykernel = "*"
 
 [requires]
 python_version = "3.8.0"
