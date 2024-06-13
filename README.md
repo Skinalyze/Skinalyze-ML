@@ -453,6 +453,7 @@ class Classifier(
 ) {
     private var interpreter: Interpreter
     private val imgData: ByteBuffer
+    private val intValues = IntArray(inputSize * inputSize)
 
     init {
         interpreter = Interpreter(loadModelFile(assetManager, modelPath))
@@ -492,9 +493,9 @@ class Classifier(
         for (i in 0 until inputSize) {
             for (j in 0 until inputSize) {
                 val value = intValues[pixel++]
-                imgData.putFloat(((value shr 16 and 0xFF) - 127.5f) / 127.5f)
-                imgData.putFloat(((value shr 8 and 0xFF) - 127.5f) / 127.5f)
-                imgData.putFloat(((value and 0xFF) - 127.5f) / 127.5f)
+                imgData.putFloat((value shr 16 and 0xFF) / 255.0f)
+                imgData.putFloat((value shr 8 and 0xFF) / 255.0f)
+                imgData.putFloat((value and 0xFF) / 255.0f)
             }
         }
     }
