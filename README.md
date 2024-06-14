@@ -137,7 +137,7 @@ The `model.png` file visualizes the architecture of the trained model. It shows 
 3. Training Logs
 The `training_log.csv` file contains the logs of the model training process, including the training and validation loss and accuracy for each epoch. Below is a sample of the training logs:
 
-    ```plaintext
+    ```cpp
     epoch,accuracy,loss,val_accuracy,val_loss
     0,0.3529999852180481,1.3982481956481934,0.4390000104904175,1.2333430051803589
     1,0.42500001192092896,1.24297297000885,0.4334999918937683,1.1779710054397583
@@ -155,9 +155,9 @@ The `training_log.csv` file contains the logs of the model training process, inc
 4. Evaluation Results
 The `evaluation_results.csv` file contains the results of the model evaluation from the validation dataset, including the accuracy and loss. Below is the result of the evaluation results:
 
-    ```plaintext
+    ```cpp
     Loss,Accuracy
-    0.4638826251029968,0.8379999995231628
+    0.2671,0.903
     ```
 
 5. Confusion Matrix
