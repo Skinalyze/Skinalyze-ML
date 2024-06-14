@@ -87,44 +87,44 @@ The results of the model training and evaluation are organized in the `results` 
 The `model_summary.txt` file contains a summary of the trained model, including the layers, parameters, and output shape. Below is the content of the `model_summary.txt` file:
 
     ```plaintext
-    Model: "model"
+    Model: "SkinProblem_Classifier"
     _________________________________________________________________
     Layer (type)                Output Shape              Param #   
     =================================================================
-    input_1 (InputLayer)        [(None, 224, 224, 3)]     0         
+    input_layer (InputLayer)    [(None, 224, 224, 3)]     0         
                                                                     
-    conv2d (Conv2D)             (None, 222, 222, 16)      448       
+    conv1 (Conv2D)              (None, 222, 222, 16)      448       
                                                                     
-    max_pooling2d (MaxPooling2  (None, 111, 111, 16)      0         
-    D)                                                              
+    max_pool1 (MaxPooling2D)    (None, 111, 111, 16)      0         
                                                                     
-    conv2d_1 (Conv2D)           (None, 109, 109, 32)      4640      
+    conv2 (Conv2D)              (None, 109, 109, 32)      4640      
                                                                     
-    max_pooling2d_1 (MaxPoolin  (None, 54, 54, 32)        0         
-    g2D)                                                            
+    max_pool2 (MaxPooling2D)    (None, 54, 54, 32)        0         
                                                                     
-    conv2d_2 (Conv2D)           (None, 52, 52, 64)        18496     
+    conv3 (Conv2D)              (None, 52, 52, 64)        18496     
                                                                     
-    max_pooling2d_2 (MaxPoolin  (None, 26, 26, 64)        0         
-    g2D)                                                            
+    max_pool3 (MaxPooling2D)    (None, 26, 26, 64)        0         
                                                                     
     flatten (Flatten)           (None, 43264)             0         
                                                                     
-    dense (Dense)               (None, 512)               22151680  
+    dense1 (Dense)              (None, 512)               22151680  
                                                                     
     dropout (Dropout)           (None, 512)               0         
                                                                     
-    dense_1 (Dense)             (None, 128)               65664     
+    dense2 (Dense)              (None, 128)               65664     
                                                                     
-    dense_2 (Dense)             (None, 64)                8256      
+    dense3 (Dense)              (None, 64)                8256      
                                                                     
-    dense_3 (Dense)             (None, 5)                 325       
+    dense4 (Dense)              (None, 16)                1040      
+                                                                    
+    output_layer (Dense)        (None, 5)                 85        
                                                                     
     =================================================================
-    Total params: 22249509 (84.88 MB)
-    Trainable params: 22249509 (84.88 MB)
+    Total params: 22250309 (84.88 MB)
+    Trainable params: 22250309 (84.88 MB)
     Non-trainable params: 0 (0.00 Byte)
     _________________________________________________________________
+
     ```
 
 2. Model Architecture
