@@ -585,12 +585,12 @@ class MainActivity : AppCompatActivity() {
 
 ### Metadata
 1. Model Information
-\nThe model information is provided in ```model_info.json``` file.
+/nThe model information is provided in ```model_info.json``` file.
 2. Input Information
-\nThe model expects an RGB image as input, which will be normalized with a mean of 0.0 and a standard deviation of 1.0. The input image tensor should have values between 0 and 255.
+/nThe model expects an RGB image as input, which will be normalized with a mean of 0.0 and a standard deviation of 1.0. The input image tensor should have values between 0 and 255.
 3. Associated Files
-\n```labels.txt```: This file contains the classification labels that the model can recognize, which are: acnes, blackheads, darkspots, normal, wrinkles.
-\n```model_info.json```: This file contains metadata about the model, including input and output tensor information. This file is associated with ```label.txt```.
+/n```labels.txt```: This file contains the classification labels that the model can recognize, which are: acnes, blackheads, darkspots, normal, wrinkles.
+/n```model_info.json```: This file contains metadata about the model, including input and output tensor information. This file is associated with ```label.txt```.
 
 ### Additional Resources
 
