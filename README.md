@@ -44,6 +44,13 @@
 ├── model
 │   └── model.txt
 ├── notebooks
+│   ├── TFLite_Model_Metadata
+│   │   ├── Pipfile
+│   │   ├── Pipfile.lock
+│   │   ├── add_metadata_to_TFLite_Model.ipynb
+│   │   └── metadata
+│   │       ├── labels.txt
+│   │       └── model_info.json
 │   ├── skin_problem_classifier.ipynb
 │   └── training
 │       ├── skin_problem_classification_training_v1.ipynb
@@ -382,24 +389,25 @@ These results show the output of both the TensorFlow Lite model and the original
 ### Model Performance
 
 The model's performance metrics are as follows:
-
+```plaintext
 - Accuracy on the test dataset: 93.75%
 - Other relevant metrics:
   - Classification report on test dataset:
 
     | Class | Precision | Recall | F1-Score | Support |
     |-------|-----------|--------|----------|---------|
-    | 0     | 0.80      | 0.99   | 0.89     | 401     |
-    | 1     | 0.92      | 0.82   | 0.87     | 416     |
-    | 2     | 0.92      | 0.71   | 0.80     | 395     |
-    | 3     | 0.98      | 0.98   | 0.98     | 392     |
-    | 4     | 0.83      | 0.93   | 0.88     | 396     |
+    | 0     | 0.92      | 0.98   | 0.95     | 406     |
+    | 1     | 0.94      | 0.87   | 0.90     | 406     |
+    | 2     | 0.93      | 0.85   | 0.89     | 405     |
+    | 3     | 0.95      | 0.98   | 0.96     | 407     |
+    | 4     | 0.89      | 0.95   | 0.92     | 376     |
     |       |           |        |          |         |
-    | Accuracy |         |        | 0.89     | 2000    |
-    | Macro avg | 0.89   | 0.89   | 0.88     | 2000    |
-    | Weighted avg | 0.89 | 0.89  | 0.88     | 2000    |
+    | Accuracy |         |        | 0.92     | 2000    |
+    | Macro avg | 0.92   | 0.92   | 0.92     | 2000    |
+    | Weighted avg | 0.93 | 0.92  | 0.92     | 2000    |
 
-- Prediction time: 00:00:00.12
+- Prediction time: 00:00:00.10
+```
 
 ### Model Usage
 
@@ -574,6 +582,15 @@ class MainActivity : AppCompatActivity() {
     }
 }
 ```
+
+### Metadata
+1. Model Information
+The model information is provided in ```model_info.json``` file.
+2. Input Information
+The model expects an RGB image as input, which will be normalized with a mean of 0.0 and a standard deviation of 1.0. The input image tensor should have values between 0 and 255.
+3. Associated Files
+```labels.txt```: This file contains the classification labels that the model can recognize, which are: acnes, blackheads, darkspots, normal, wrinkles.
+```model_info.json```: This file contains metadata about the model, including input and output tensor information. This file is associated with ```label.txt```.
 
 ### Additional Resources
 
